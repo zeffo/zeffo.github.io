@@ -1,59 +1,65 @@
-<!DOCTYPE html>
-<html style="margin: -7px;">
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/Social-Icons.css">
-</head>
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/custom.css" rel="stylesheet">
 
-<body style="height: 959.34px;">
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Aman Phatak</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item"></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro" style="height: 446px;">
-            <footer></footer>
-            <footer></footer>
-            <div class="container">
-                <div class="avatar" style="background: url(&quot;assets/img/avatars/oke.png&quot;) center / contain;"></div>
-                <div class="about-me">
-                    <p style="height: 87px;">Hello! I'm Aman.&nbsp;<br><br><br></p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+        
+
+        <title>Aman Phatak</title>
+
+    </head>
+
+    <!-- THIS NEEDS TO BE IN EACH PAGE BECAUSE I SAID SO -->
+    <body>
+        <div id="bg1">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="margin-left:100px;margin-right:100px;margin-top:50px;">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/logo.png" height="150" width="150">
+                    </a>
+                    <div class="navbar-collapse collapse" id="navButton">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        </ul>
+                    </div>
+                    <button data-bs-toggle="collapse" type="button" class="navbar-toggler" data-bs-target="#navButton" aria-controls="#navButton">
+                        <span class="visually-hidden">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-            </div>
-            <h1 style="color: var(--bs-blue);font-size: 36px;padding: 0px;">About Me</h1>
-        </section>
-    </main>
-    <p class="text-center" style="margin: 11px;height: 111px;padding-bottom: 56px;padding-top: 17px;">I am a 12th grader with an unquenchable enthusiasm for computer science.<br>My hobbies include gaming, badminton and robotics.&nbsp;<br>I also love doing social work for animal welfare in my locality.<br>I love science fiction, particularly George Lucas's Star Wars franchise and Frank Herbert's Dune saga.&nbsp;<br><br><br><br></p>
-    <footer></footer>
-    <footer class="footer-basic" style="margin-top: 85px;">
-        <div class="social" style="padding-bottom: 2px;"><a href="https://github.com/zeffo"><i class="icon ion-social-github"></i></a></div>
-        <p class="copyright">Aman Phatak © 2022</p>
-    </footer>
-    <footer></footer>
-    <footer></footer>
-    <footer></footer>
-    <footer></footer>
-    <footer></footer>
-    <p></p>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-</body>
-
+            </nav>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
+        <script>
+            VANTA.NET({
+                el: "#bg1",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                points: 10.00,
+                maxDistance: 15.00,
+                spacing: 20.00,
+                color: 0x21312d,
+                backgroundColor: 0xa020f,
+              })
+        </script>
+        
+        <script href="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+    </body>
+    <!-- till here ty <#-->
 </html>

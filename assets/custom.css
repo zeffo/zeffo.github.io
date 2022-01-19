@@ -1,0 +1,13 @@
+#bg1 {
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    color: #4bfa00;
+}
+
+.green {
+    color: #4bfa00;
+}

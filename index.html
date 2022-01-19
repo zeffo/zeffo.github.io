@@ -4,8 +4,6 @@
         background-color: #0a020f;
     </style>
     <head>
-        <link rel="stylesheet" href="assets/custom.css">
-
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,12 +15,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="assets/custom.css">
         <title>Aman Phatak | Home</title>
+
     </head>
 
     <!-- THIS NEEDS TO BE IN EACH PAGE BECAUSE I SAID SO -->
     <body id="bg1">
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="margin-left:50px;margin-right:50px;margin-top:50px;">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="margin-left:50px;margin-right:50px;margin-top:20px;">
             <div class="container">
                 <a class="navbar-brand logo" href="index.html">
                     <img src="assets/logo.png" width="150" height="150">
@@ -43,29 +43,17 @@
 
         <div class="container" style="padding-top: 400px;padding-right:50px;padding-left:50px;">
             <h1 class="text-center star"> Hi! I'm Aman. </h1>
-            <p class="hackstar text-center" style="padding-top: 50px;">
+            <p class="text-center lead" style="padding-top: 50px;">
                 I'm a 12th grader who loves programming and Star Wars. <br>
-                You can find me on discord: Zeffo#0393
+                You can find me on <a href="https://discord.com/users/325616103143505932" class="star nohref"> Discord </a> and <a href="https://github.com/zeffo" class="star nohref"> GitHub. </a>
+            </p>
         </div>
 
+        <footer class='text-center fixed-bottom' style="padding-bottom:40px;padding-right:50px;padding-left:50px;">
+            Made With ❤️ By Me
+        </footer>
+
         <!-- Background -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
-        <script>
-            VANTA.NET({
-                el: "#bg1",
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                scale: 1.00,
-                scaleMobile: 1.00,
-                points: 10.00,
-                maxDistance: 15.00,
-                spacing: 20.00,
-                color: 0x21312d,
-                backgroundColor: 0xa020f,
-              })
-        </script>
         
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>

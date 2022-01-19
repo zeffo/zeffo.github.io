@@ -3,11 +3,29 @@
     height: 100vh;
 }
 
+
 * {
     font-family: 'Roboto Mono', monospace;
     color: #4bfa00;
 }
 
-.green {
+.hacker {
     color: #4bfa00;
+}
+
+.hackstar {
+    color: #4bfa00;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 0 0 5px #4bfa00;
+}
+
+.star {
+    color: #ffff66;
+    font-style: normal;
+    text-shadow: 0 0 5px #ffff66;
+  }
+
+.nav-item{
+    text-align: right;
 }

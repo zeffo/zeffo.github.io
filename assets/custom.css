@@ -23,8 +23,14 @@
 .star {
     color: #ffff66;
     font-style: normal;
-    text-shadow: 0 0 5px #ffff66;
+    text-shadow: 0 0 10px #ffff66;
   }
+
+.boldstar {
+    color: #ffff66;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffff66;
+}
 
 .nav-item{
     text-align: right;
@@ -38,3 +44,25 @@ body {
     text-decoration:none;
 }
 
+.footer-main {
+    font-size: 40px;
+}
+
+.nav-item:hover .nav-link {
+    color: #ffff66 !important;
+    font-size: 105%;
+    text-shadow: 0 0 10px #ffff66;
+}
+
+.starborder {
+    border-color: #ffff66 !important;
+}
+
+
+.list-group {
+    margin-bottom: 50px;
+}
+
+.e1 {
+    padding-top: 20px;
+}

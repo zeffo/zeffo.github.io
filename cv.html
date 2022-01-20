@@ -14,17 +14,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
         <link rel="stylesheet" href="assets/custom.css">
-        <title>Aman Phatak | Home</title>
+        <title>Home</title>
 
     </head>
 
     <!-- THIS NEEDS TO BE IN EACH PAGE BECAUSE I SAID SO -->
     <body id="bg1">
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="margin-left:50px;margin-right:50px;margin-top:20px;">
-            <div class="container">
-                <a class="navbar-brand logo" href="index.html">
+        <nav class="navbar navbar-expand-sm navbar-dark static-top" style="margin-left:50px;margin-right:50px;margin-top:20px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
                     <img src="assets/logo.png" width="150" height="150">
                 </a>
                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav">
@@ -41,16 +41,65 @@
             </div>
         </nav>
 
-        <div class="container" style="padding-top: 400px;padding-right:50px;padding-left:50px;">
-            <h1 class="text-center star"> Hi! I'm Aman. </h1>
-            <p class="text-center lead" style="padding-top: 50px;">
-                I'm a 12th grader who loves programming and Star Wars. <br>
-                You can find me on <a href="https://discord.com/users/325616103143505932" class="star nohref"> Discord </a> and <a href="https://github.com/zeffo" class="star nohref"> GitHub. </a>
-            </p>
+        <div class="container" style="padding-right:50px;padding-left:50px;">
+            <h1 class="text-center boldstar"> CV </h1>
+
+            <div class="row gx-5 justify-content-center text-center" style="padding-top:50px;">
+                <div class='col' style='padding-left:100px;padding-right:100px;'>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item starborder bg-transparent mx-auto"><h2 class='star'>Experience</h2></li>
+                        <li class="list-group-item bg-transparent e1">
+                            <span class='hackstar'>PierianDx India </span>
+                            <span class="badge rounded-pill bg-transparent border starborder">Internship</span><br>
+                            <span class="hacker"> At PierianDx, I was tasked with creating an automated workflow with the USFDA OpenAPI </span>
+                        </li>
+                        <li class="list-group-item bg-transparent">
+                            <span class='hackstar'>YLAC High School Achievers</span>
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="assets/certs/ylac.jpg" class="text-light nohref">Program</a></span><br>
+                            <span class="hacker">The High School Achievers program by YLAC is a highly selective program that identifies promising high schoolers and builds their capacity to lead change.</span>
+                        </li>
+                        <li class="list-group-item bg-transparent">
+                            <span class='hackstar'>Youngistaani Innovator's Conclave</span>
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="assets/certs/youngistaani.jpg" class="text-light nohref">Program</a></span><br>
+                            <span class="hacker">The Youngistaani Innovator's Conclave by The Orchid School is an opportunity for selected students to present out-of-the-box ideas to esteemed mentors who help them bring those ideas to reality.</span>
+                        </li>
+                        <li class="list-group-item bg-transparent">
+                            <span class='hackstar'>Python For Everybody Capstone</span>
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="assets/certs/py4e.pdf" class="text-light nohref">Course</a></span><br>
+                            <span class="hacker">PY4E is a Python course that covers basic and intermediate level python programming skills. I passed the capstone course with honors.</span>
+                        </li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item starborder bg-transparent mx-auto"><h2 class='star'>Accolades</h2></li>
+                        <li class="list-group-item bg-transparent hackstar e1">IIT-B TechFest International RoboWars
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="assets/certs/robowars.png" class="text-light nohref">3rd | 2020</a></span>
+                        </li>
+                        <li class="list-group-item bg-transparent hackstar">KPIT vSolve
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="assets/certs/kpit2019.jpg" class="text-light nohref">2nd | 2019</a></span>
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="assets/certs/kpit2018.jpg" class="text-light nohref">1st | 2018</a></span>
+                        </li>
+                        <li class="list-group-item bg-transparent hackstar">Inter-school CompuSkills Championship
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="assets/certs/compuskills.jpg" class="text-light nohref">2nd | 2019</a></span>
+                        </li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item starborder bg-transparent mx-auto"><h2 class='star'>Education</h2></li>
+                        <li class="list-group-item bg-transparent hackstar e1">Millennium National School
+                            <span class="badge rounded-pill bg-transparent border starborder"><a href="https://myshala.com" class="text-light nohref">High School</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
-        <footer class='text-center fixed-bottom' style="padding-bottom:40px;padding-right:50px;padding-left:50px;">
-            Made With ❤️ By Me
+        <footer class='static-bottom' style="padding-bottom:40px;padding-right:50px;padding-left:50px;padding-top:50px;">
+            <div class="text-center footer-main">
+                <a href="https://github.com/zeffo"><i class="icon ion-social-github star"></i></a>
+            </div>
+            <p class="star text-center">
+                Made with ❤️
+            </p>
         </footer>
 
         <!-- Background -->

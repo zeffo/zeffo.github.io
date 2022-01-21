@@ -66,3 +66,7 @@ body {
 .e1 {
     padding-top: 20px;
 }
+
+.badge:hover {
+   box-shadow: 0 0 10px #ffff66 !important;
+}

@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta property="og:site_name" content="Aman">
-        <meta property="og:title" content="Projects" />
+        <meta property="og:title" content="Social Work" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://zeffo.me" />
-        <meta property="og:description" content="All my programming and robotics projects." />
+        <meta property="og:description" content="Lots of animal pics!" />
         <meta name="theme-color" content="#ffff66">
 
         <link rel="icon" href="assets/logo.png">
@@ -22,7 +22,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
         <link rel="stylesheet" href="assets/custom.css">
-        <title>Projects</title>
+        <title>Social Work</title>
 
     </head>
 
@@ -40,42 +40,50 @@
                 <div class="collapse navbar-collapse" id="navbarNav" style="font-size: 25px;">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link px-5" href="index.html" style="color: #4bfa00;">Home</a></li>
-                        <li class="hackstar nav-item"><a class="nav-link px-5" href="projects.html" style="color: #4bfa00;">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link px-5" href="projects.html" style="color: #4bfa00;">Projects</a></li>
                         <li class="nav-item"><a class="nav-link px-5" href="cv.html" style="color: #4bfa00;">CV</a></li>
-                        <li class="nav-item"><a class="nav-link px-5" href="social.html" style="color: #4bfa00;">Social Work</a></li>
+                        <li class="hackstar nav-item"><a class="nav-link px-5" href="social.html" style="color: #4bfa00;">Social Work</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <div class="container" style="padding-right:50px;padding-left:50px;">
-            <h1 class="text-center boldstar"> Projects </h1>
-            <div class="row gx-5 justify-content-center" style="padding-top:50px;">
-                <div class="card bg-transparent" style="width: 15rem;">
-                    <img src="assets/img/hk.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="#" class="nohref star">HK</a></h5>
-                        <p class="card-text">HK is a discord bot with many quirky features.</p>
+            <h1 class="text-center boldstar"> Animal Welfare </h1>
+            <p class="text-center hackstar"> I'm very fond of animals. I started rescue work in 2015 and have rescued, rehabilitated and rehomed over 30 animals since. <br />
+                I also enjoy volunteering at 
+                <a href="https://www.facebook.com/AARTPune/" class="star nohref">AART's</a> 
+                adoption camps.<br>
+                I am an ethical vegan.
+            </p>
+            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="false" style="padding-top:50px;">
+                <div class='carousel-inner' id='carousel-content'>
+                    <div class='carousel-item active'>
+                        <img src='assets/animals/main.jpg' class='img-fluid'>
                     </div>
+                    <script>
+                        main = document.getElementById("carousel-content")
+                        for (let i=0; i < 23; i++) {
+                            var div = document.createElement('div')
+                            div.setAttribute('class', 'carousel-item');
+                            var img = document.createElement('img')
+                            img.setAttribute("src", "assets/animals/" + i +".jpg")
+                            img.setAttribute("class", "img-fluid")
+                            div.appendChild(img)
+                            main.appendChild(div)
+                        }
+                    </script>
                 </div>
-                <div class="card bg-transparent" style="width: 15rem;">
-                    <img src="assets/img/pytemplate.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="https://github.com/zeffo/pytemplate" class="nohref star">pytemplate</a></h5>
-                        <p class="card-text">pytemplate is a fast command line application for rendering docx templates.</p>
-                    </div>
-                </div>
-                <div class="card bg-transparent" style="width: 15rem;">
-                    <img src="assets/img/mns-menus.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="https://github.com/zeffo/mns-menus" class="nohref star">menus</a></h5>
-                        <p class="card-text">menus is a decorator based command line parser built for quickly completing school assignments.</p>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
             </div>
         </div>
 
-        <footer class='static-bottom' style="padding-bottom:40px;padding-right:50px;padding-left:50px;padding-top:50px;">
+        <footer class='sticky-bottom' style="padding-bottom:40px;padding-right:50px;padding-left:50px;padding-top:50px;">
             <div class="text-center footer-main">
                 <a href="https://github.com/zeffo"><i class="icon ion-social-github star"></i></a>
             </div>

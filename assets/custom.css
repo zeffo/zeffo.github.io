@@ -71,3 +71,22 @@ body {
 .badge:hover {
    box-shadow: 0 0 10px #ffff66 !important;
 }
+
+.carousel-inner {
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    margin: 0 auto;
+    display: block;
+    height: 500px;
+    object-fit: contain;
+  }
+
+.carousel-control-prev {
+    padding-right: 100px;
+}
+
+.carousel-control-next {
+    padding-left: 100px;
+}

@@ -33,8 +33,17 @@
     text-shadow: 0 0 10px #ffff66;
 }
 
-.nav-item{
-    text-align: right;
+.navbar {
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top:20px;
+    padding-top:70px;
+    margin-bottom:100px;
+}
+.navbar-nav {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 body {

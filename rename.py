@@ -1,6 +1,8 @@
 from os import rename, listdir
 import re
 
+# LOL this is hacky af 
+
 ROOT = 'assets/animals'
 gex = re.compile(r'\.(.*)')
 for i, file in enumerate(listdir(ROOT)):

@@ -40,11 +40,8 @@
     padding-top:70px;
     margin-bottom:100px;
 }
-.navbar-nav {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
+
+
 
 body {
     background: #0a020f;

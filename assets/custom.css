@@ -41,7 +41,9 @@
     margin-bottom:100px;
 }
 
-
+tr {
+    text-align: left;
+}
 
 body {
     background: #0a020f;

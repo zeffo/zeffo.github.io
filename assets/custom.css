@@ -41,6 +41,13 @@
     margin-bottom:100px;
 }
 
+@media (min-width: 992px){
+    .navbar li {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
 tr {
     text-align: left;
 }
@@ -54,7 +61,16 @@ body {
 }
 
 .footer-main {
-    font-size: 40px;
+    font-size: 35px;
+}
+
+ion-icon.star{
+    color: #ffff66;
+}
+
+
+button.navbar-toggler {
+    border-color: #ffff66 !important;
 }
 
 .nav-item:hover .nav-link {

@@ -10,6 +10,10 @@
     color: #4bfa00;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .hacker {
     color: #4bfa00;
 }

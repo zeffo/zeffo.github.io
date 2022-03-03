@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-bdd6298f.js",
+    "file": "start-a460c584.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -35,71 +35,74 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-2f18bd1d.js",
+    "file": "pages/index.svelte-5bbd51fe.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9bde3bd3.js",
-      "_Navbar-616e76d8.js"
+      "_Navbar-fe8999b9.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-d73358f7.css"
     ]
   },
   "src/routes/social_work.svelte": {
-    "file": "pages/social_work.svelte-c70aa001.js",
+    "file": "pages/social_work.svelte-9f642be6.js",
     "src": "src/routes/social_work.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9bde3bd3.js",
-      "_Navbar-616e76d8.js"
+      "_Navbar-fe8999b9.js"
     ]
   },
   "src/routes/projects.svelte": {
-    "file": "pages/projects.svelte-8ff23a38.js",
+    "file": "pages/projects.svelte-b77ed450.js",
     "src": "src/routes/projects.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9bde3bd3.js",
-      "_Navbar-616e76d8.js"
+      "_Navbar-fe8999b9.js"
     ]
   },
   "src/routes/cv.svelte": {
-    "file": "pages/cv.svelte-cf1826a7.js",
+    "file": "pages/cv.svelte-53835678.js",
     "src": "src/routes/cv.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9bde3bd3.js",
-      "_Navbar-616e76d8.js"
+      "_Navbar-fe8999b9.js"
     ],
     "css": [
       "assets/pages/cv.svelte-923e074a.css"
     ]
   },
   "src/routes/pc.svelte": {
-    "file": "pages/pc.svelte-9626430f.js",
+    "file": "pages/pc.svelte-d307bbb8.js",
     "src": "src/routes/pc.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-9bde3bd3.js",
-      "_Navbar-616e76d8.js"
+      "_Navbar-fe8999b9.js"
     ],
     "css": [
-      "assets/pages/pc.svelte-9ee32db7.css"
+      "assets/pages/pc.svelte-8d33c5dc.css"
     ]
   },
   "_vendor-9bde3bd3.js": {
     "file": "chunks/vendor-9bde3bd3.js"
   },
-  "_Navbar-616e76d8.js": {
-    "file": "chunks/Navbar-616e76d8.js",
+  "_Navbar-fe8999b9.js": {
+    "file": "chunks/Navbar-fe8999b9.js",
     "imports": [
       "_vendor-9bde3bd3.js"
     ],
     "css": [
-      "assets/Navbar-9159a47b.css"
+      "assets/Navbar-899208eb.css"
     ]
   }
 }

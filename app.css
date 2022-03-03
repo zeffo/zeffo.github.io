@@ -14,7 +14,7 @@ p a {
 }
 
 i:hover {
-	color:#ffffff;
+	color:#FF1E6E;;
 	text-shadow: 0 0 10px;
 }
 
@@ -56,6 +56,7 @@ i:hover {
 	text-decoration:underline;
 	text-underline-offset:10px;
 	color:#ffffff;
+	text-shadow: 0 0 5px #ffffff;
 }
 
 .title {

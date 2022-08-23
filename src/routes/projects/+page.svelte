@@ -7,7 +7,7 @@
         ['HK', 'https://github.com/zeffo/HK', 'A multipurpose discord bot', assets+'hk.jpg'],
         ['AmbiLight', 'https://youtu.be/_VMQRKT320A', 'System to synchronize monitor colors with a ARGB strip in real time', assets+'ambience.png'],
         ['zeffo.me', '/', 'My website, made with svelte and bootstrap', 'favicon.png'],
-        ['Periodico', 'https://www.youtube.com/watch?v=BfJffhaNUBo', 'A newspaper sequencing robot to help newspaper vendors cut down on delivery times', assets+'periodico.png'],
+        ['Periodico', 'https://www.youtube.com/watch?v=BfJffhaNUBo', 'Robot to help newspaper vendors cut down on delivery times', assets+'periodico.png'],
         ['pytemplate', 'https://github.com/zeffo/pytemplate', 'pytemplate is a multithreaded CLI for rendering DocX templates.', assets+'pytemplate.png']
     ]
 </script>
@@ -39,6 +39,12 @@
         text-align: left;
     }
 
+    @media(max-width: 990px) { 
+        .card-body {
+            font-size: smaller;
+        }
+    }
+
 
 </style>
 
@@ -54,10 +60,10 @@
             {#each proj as project}
                 <div class="card">
                     <div class="row g-0">
-                        <div class="col my-auto">
+                        <div class="col-4 my-auto">
                             <img src={project[3]} class="img-fluid rounded-start" alt={project[0]}/> 
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-8">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <a href={project[1]} class="clean pink-shine">{project[0]}</a>

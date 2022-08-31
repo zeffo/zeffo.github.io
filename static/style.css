@@ -3,6 +3,11 @@
 	color: #00ffff;
 }
 
+html, body {
+    height: 100%;
+}
+  
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -57,7 +62,8 @@ p a {
 }
 
 footer {
-    margin-bottom: 50px;
+    padding: 25px;
+    backdrop-filter: blur(4px);
 }
 
 footer a {
@@ -67,8 +73,6 @@ footer a {
 
 footer a:hover {
     color:#FF1E6E !important;
-    text-shadow: 0 0 20px;
+    text-shadow: 0 0 10px;
 }
 
-
-  

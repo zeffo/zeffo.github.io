@@ -16,13 +16,13 @@
 <main>
 	<div class="container-fluid">
 		<body class="text-center">
-			<h1 class="white glow" style="padding-top:50px;">
+			<h1 class="title">
 				Hi! I'm Aman.
 			</h1>
-			<p class="lead aqua" style="padding-top:30px;">
-				I ❤️ anything to do with automation, concurrency and Star Wars. <br>
-				You can find me on <a href="https://discord.com/users/325616103143505932" class="clean pink-shine"> Discord </a> 
-				and <a href="https://github.com/zeffo" class="clean pink-shine"> GitHub. </a>
+			<p style="padding-top:60px;">
+				I ❤️ automation, concurrent programming and Star Wars. <br>
+				You can find me on <a href="https://discord.com/users/325616103143505932" class="link"> Discord </a> 
+				and <a href="https://github.com/zeffo" class="link"> GitHub</a>.
 			</p>
 		</body>
 	</div>

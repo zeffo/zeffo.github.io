@@ -9,6 +9,7 @@
         ["KPIT vSolve Robotics Competition", '', "An interschool robotics competition. 1st place - 2018, 2nd place - 2019"],
         ["Youngistaani Innovator's Conclave", path+"youngistaani.jpg", "An interschool conclave where select students were able to showcase their innovations and get feedback from industry leaders"]
     ]
+    let tech = ["python", "html5"]
 </script>
 
 <Navbar />
@@ -19,5 +20,6 @@
 
 <body>
     <div class="container-fluid no-collision">
+        
     </div>
 </body>

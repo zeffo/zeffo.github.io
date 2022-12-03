@@ -86,17 +86,13 @@ button.navbar-toggler {
     border-color: #89dceb;
 }
 
-@media (min-width: 992px){
-    #navbar {
-        margin-bottom: 30px;
-    }
-}
+
 
 
 /* Cards */
 
 div .card {
-    width: 500px;
+    max-width: 500px;
     margin: 20px;
     padding-bottom: 20px;
     background-color: #181825;

@@ -21,7 +21,7 @@
         <div class="row g-1 justify-content-center" style="padding-top: 30px;">
             {#each proj as project}   
                 <div class="card">
-                    <a href={project[1]} class="clean" target="_blank">
+                    <a href={project[1]} class="clean" target="_blank" rel="noreferrer">
                         <h2 class="card-title text-center">
                             <a href={project[1]} class="link">{project[0]}</a>
                         </h2>

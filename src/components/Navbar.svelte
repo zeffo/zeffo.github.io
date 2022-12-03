@@ -18,7 +18,7 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark static-top">
     <div class="container-fluid" id="navbar">
-        <button data-bs-toggle="collapse" class="btn navbar-toggler shadow-none" data-bs-target="#navbarNav" style="margin-bottom:20px;">
+        <button data-bs-toggle="collapse" class="btn navbar-toggler shadow-none" data-bs-target="#navbarNav">
             <span class="visually-hidden">Toggle navigation</span>
             <span class="navbar-toggler-icon"></span>
         </button>

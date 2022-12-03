@@ -1,6 +1,5 @@
 <script>
     import Navbar from "../../components/Navbar.svelte";
-
     // Title, URL, Description, Image URL
     let assets = 'projects/'
     let proj = [
@@ -12,72 +11,26 @@
     ]
 </script>
 
-<style>
-
-    .card {
-        background-color: #0c0c11;
-        max-width: 475px;
-        margin: 30px;
-    }
-
-    .card a {
-        font-weight: bold;
-    }
-
-    .card img {
-        max-height: 150px;
-    }
-
-    .card:hover {
-        transform: scale(1.05);
-    }
-
-    .container-fluid {
-        padding-top: 30px;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
-        text-align: left;
-    }
-
-    @media(max-width: 990px) { 
-        .card-body {
-            font-size: smaller;
-        }
-    }
-
-
-</style>
-
-<Navbar/>
-
-<h1 class="white text-center">
+<Navbar />
+<h1 class="title text-center">
     Projects
 </h1>
 
 <body>
-    <div class="container-fluid">
-        <div class="row g-0 justify-content-center">
-            {#each proj as project}
+    <div class="container-fluid no-collision">
+        <div class="row g-1 justify-content-center" style="padding-top: 30px;">
+            {#each proj as project}   
                 <div class="card">
-                    <div class="row g-0">
-                        <div class="col-4 my-auto">
-                            <img src={project[3]} class="img-fluid rounded-start" alt={project[0]}/> 
-                        </div>
-                        <div class="col-8">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <a href={project[1]} class="clean pink-shine">{project[0]}</a>
-                                </h5>
-                                <p class="card-text">
-                                    {project[2]}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <a href={project[1]} class="clean">
+                        <h2 class="card-title text-center">
+                            <a href={project[1]} class="link">{project[0]}</a>
+                        </h2>
+                        <p class="card-text">
+                            {project[2]}
+                        </p>
+                    </a>
+                </div>  
             {/each}
         </div>
     </div>
 </body>
-
-

@@ -10,7 +10,8 @@
         ["Youngistaani Innovator's Conclave", path+"youngistaani.jpg", "An interschool conclave where select students were able to showcase their innovations and get feedback from industry leaders"]
     ]
     let tech = [
-        ["Programming Languages", ["Python3", "SQL", "Rust", "JS"]]
+        ["Programming Languages", ["Python3", "Rust", "JS"]],
+        ["Technologies", ["Postgres", "Svelte", "Git", "Django", "Vim", "Arch"]],
     ]
 </script>
 
@@ -21,11 +22,43 @@
 </h1>
 
 <body>
-    <div class="container-fluid no-collision text-center">
-        {#each tech as t}
+    <div class="portfolio container no-collision text-center">
+        {#each tech as row}
             <h5>
-                {t[0]}
+                {row[0]}
             </h5>
+            <div class="row justify-content-center">
+                {#each row[1] as t}
+                    <div class="col" style="max-width: 150px;">
+                        <img src="icons/{t}.svg" alt={t} class="icon">
+                        {t}
+                    </div>
+                {/each}
+            </div>
+            <br>
         {/each}
+        <h5>
+            Achievements
+        </h5>
+        <table class="table">
+            <thead>
+                <tr>     
+                    <th scope="col" class="table-name">Name</th>
+                    <th scope="col" class="table-desc">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {#each awards as award}
+                <tr>
+                    <th>
+                        <a class="link" href={award[1]}>{award[0]}</a>
+                    </th>
+                    {#each award.slice(2, award.length) as row}
+                    <td>{row}</td>
+                    {/each}
+                </tr>
+                {/each}
+            </tbody>
+        </table>
     </div>
 </body>

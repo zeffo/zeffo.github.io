@@ -41,8 +41,14 @@ html, body {
     text-decoration: underline;
 }
 
-div.container-fluid.no-collision {
-    padding-bottom: 80px;
+body div.container-fluid.no-collision {
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+body div.container.no-collision {
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 
 h5 {
@@ -55,7 +61,7 @@ footer {
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #11111b;
+    background-color: #181825;
 }
 
 
@@ -95,7 +101,7 @@ button.navbar-toggler {
 
 /* Cards */
 
-div .card {
+div.projects div.card {
     max-width: 500px;
     margin: 20px;
     padding-bottom: 20px;
@@ -103,9 +109,13 @@ div .card {
     border-color: #f2cdcd;
 }
 
-div .card:hover {
+div.projects div.card:hover {
     border-color: #f9e2af;
     border-width: 3px;
+}
+
+div.portfolio div.card {
+    background-color: #181825;
 }
 
 .card-body {
@@ -117,5 +127,31 @@ p.card-text {
     padding-right: 15px;
     text-align: center;
     font-size: 20px;
+}
+
+/* Portfolio */
+
+div.portfolio img.icon {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+div.portfolio {
+    margin-top: 30px;
+}
+
+table tbody tr {
+    text-align: left;
+}
+
+table thead tr th.table-name {
+    color:#f5c2e7;
+    text-align: left;
+}
+
+table thead tr th.table-desc {
+    color:#89dceb;
+    text-align: left;
 }
 

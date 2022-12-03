@@ -17,8 +17,8 @@
 </h1>
 
 <body>
-    <div class="container-fluid no-collision">
-        <div class="row g-1 justify-content-center" style="padding-top: 30px;">
+    <div class="projects container-fluid no-collision">
+        <div class="row g-1 justify-content-center">
             {#each proj as project}   
                 <div class="card">
                     <a href={project[1]} class="clean" target="_blank" rel="noreferrer">

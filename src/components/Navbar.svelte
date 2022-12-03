@@ -3,7 +3,7 @@
         ['home', '/'],
         ['projects', '/projects'],
         ['portfolio', '/portfolio'],
-        ['animal welfare', '/aw'],
+        ['rescues', '/rescues'],
         
     ]
     import { page } from '$app/stores';

@@ -31,7 +31,7 @@ html, body {
 .link {
     /* font-family: 'Raleway'; */
     text-decoration: none;
-    color: #f2cdcd;
+    color: #f5c2e7;
 }
 
 .link:hover {
@@ -100,11 +100,12 @@ div .card {
     margin: 20px;
     padding-bottom: 20px;
     background-color: #181825;
-    border-color: #f5e0dc;
+    border-color: #f2cdcd;
 }
 
 div .card:hover {
     border-color: #f9e2af;
+    border-width: 3px;
 }
 
 .card-body {

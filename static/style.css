@@ -45,6 +45,10 @@ div.container-fluid.no-collision {
     padding-bottom: 80px;
 }
 
+h5 {
+    color: #f9e2af;
+}
+
 /* Footer */
 
 footer {
